@@ -1,0 +1,93 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="comandos.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link href="estilo.css" rel="stylesheet">
+    <title>TAREFA 1</title>
+</head>
+<body>
+		
+		<header>
+				<h1>
+				Computer Graphics
+				</h1>
+				<p>
+				Line Algorithms
+				</p>
+				<p>
+				Circle Algorithm
+				</p>
+				<p>
+				Clipping Algorithms
+				</p>
+				<P>
+				Geometric Transformations
+				</P>
+		</header> 
+		
+		<div class=head1>
+			Drawing Algorithms
+		</div>
+		
+		<nav>
+				<button id="btn0">Line-DDA Algorithm</button>
+				<button id="btn1">Line-Bresenham Algorithm</button>
+				<button id="btn2">Circle-Bresenham Algorithm</button>
+		</nav>
+		
+		<div class=head1>
+			Clipping Algorithms
+		</div>
+		
+		<nav>
+				<button id="btn3">Clipping-Cohen_Sutherland Algorithm</button>
+				<button id="btn4">Clipping-Liang_Barsky Algorithm</button>
+		</nav>
+		
+		<div class=head1>
+			Geometric Transformations
+		</div>
+		
+		<nav>
+				<button id="bt1" onclick='showInputT()'>Translation</button>
+				<button id="bt2" onclick='showInputR()'>Rotation</button>
+				<button id="bt3" onclick='showInputS()'>Scale</button>
+				<button id="bt4">Reflection X</button>
+				<button id="bt5">Reflection Y</button>
+				<button id="bt6">Reflection XY</button>
+		</nav>
+		
+		<div id="translation">
+						X : <input type="number" id="x">
+						Y : <input type="number" id="y">
+						<button onclick='doTranslation()' id="bti">Translation</button>
+				</div>
+				<div id="rotation">Rotate in <input type="number" id="grau"> ° degrees 
+						<a onclick='doRotation()' id="rt0">Rotation</a>
+				</div>
+				<div id="scale">Scale X: 
+						<input type="number" id="sca">
+						Scale Y:  <input type="number" id="sca1"> 
+						<button onclick='doScale()' id="sc1"> Scale</button>
+				</div>
+		
+		<p1 id="bot1">			
+				<button class="bt" id="clear">Clear Table</button>
+		</p1>
+		
+		<div>
+				Attention:
+				<p>
+				- You must click in some button above "Drawing Algorithms section" before you would select the two points.
+				</p>
+				<p>
+				- After you do some action you must click on the "clear" button to back the state initial of the table. So you can make a new action.
+				</p>
+		</div>
+		
+    <canvas id='canvas' width='400' height='400'>
+       canvas setpixel 
+    </canvas>
+</body>

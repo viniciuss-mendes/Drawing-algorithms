@@ -1,0 +1,25 @@
+COMPUTAÇÃO GRÁFICA
+
+Nome: Vinícius Mendes
+Matrícula: 685578
+
+Projeto de implementação
+
+->Acesso ao projeto na plataforma JSFiddle:
+
+-Acessar ao cógido fonte
+-Executar o programa
+-Testar o programa
+-Observações gerais:
+--Projeto realizado em JS + JQuery + HTML + CSS
+--Código está documentado por seções, isto é, por partes sepadaradas de cada etapa do projeto.
+--Foi explicado, bem basicamente, como é a estrutura do código no vídeo.
+-Em caso de algum problema com o link:
+--User: ViniciusMendes2001
+--Senha: 85391162
+-LINK DE ACESSO: http://jsfiddle.net/ViniciusMendes2001/u5z0b7vk/
+
+
+->Link para acesso ao vídeo no youtube:
+
+- LINK: https://youtu.be/S16uFG8Mt3w
