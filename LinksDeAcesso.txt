@@ -18,8 +18,3 @@ Projeto de implementação
 --User: ViniciusMendes2001
 --Senha: 85391162
 -LINK DE ACESSO: http://jsfiddle.net/ViniciusMendes2001/u5z0b7vk/
-
-
-->Link para acesso ao vídeo no youtube:
-
-- LINK: https://youtu.be/S16uFG8Mt3w
